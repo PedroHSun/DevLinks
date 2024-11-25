@@ -10,6 +10,13 @@ body {
   /*Utilizou essa função para simplificar todo o estilo do plano de fundo na página*/
 }
 
+body * {
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+
 #container {
   width: 360px;
   height: 712px;
@@ -17,8 +24,17 @@ body {
   margin: auto;
 }
 
+#profile {
+  text-align: center;
+}
+
 #profile img {
   display: block;
   width: 115px;
   margin: auto;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
