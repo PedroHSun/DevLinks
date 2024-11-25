@@ -1,0 +1,24 @@
+body {
+  /*
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  */
+  /*background: color image repeat position/size */
+  background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+  /*Utilizou essa função para simplificar todo o estilo do plano de fundo na página*/
+}
+
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid rgb(255, 0, 0);
+  margin: auto;
+}
+
+#profile img {
+  display: block;
+  width: 115px;
+  margin: auto;
+}
