@@ -9,6 +9,12 @@ body {
   background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
   /*Utilizou essa função para simplificar todo o estilo do plano de fundo na página*/
 }
+* {
+  /*Resete de CSS -->Utilização do seletor universal para mudar as caracteristicas */
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; /* Estudar melhor depois */
+}
 
 body * {
   font-family: "Bokor", system-ui;
@@ -20,7 +26,6 @@ body * {
 #container {
   width: 360px;
   height: 712px;
-  border: 1px solid rgb(255, 0, 0);
   margin: auto;
 }
 
@@ -37,4 +42,15 @@ body * {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Alinhar os elementos da lista */
+  padding: 16px 24px;
 }
